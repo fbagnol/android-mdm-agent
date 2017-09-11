@@ -32,10 +32,6 @@ public class UserController {
 
     private Context context;
 
-    /**
-     * This constructor loads the context of the current class
-     * @param Context the context
-     */
     public UserController(Context context) {
         this.context = context;
     }
