@@ -199,11 +199,6 @@ public class FlyveLog {
         }
     }
 
-    /**
-     * Clear the log
-     * @param string the file name
-     * @throws Exception an error message
-     */
     public static void clearLog(String filename) {
         String state = Environment.getExternalStorageState();
 
