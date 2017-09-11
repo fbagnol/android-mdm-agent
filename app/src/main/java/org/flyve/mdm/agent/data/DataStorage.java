@@ -111,10 +111,6 @@ public class DataStorage {
 		return getData("user_token");
 	}
 
-	/**
-	 * Set the token of the user
-	 * @param string the user token
-	 */
 	public void setUserToken(String userToken) {
 		setData("user_token", userToken);
 	}
