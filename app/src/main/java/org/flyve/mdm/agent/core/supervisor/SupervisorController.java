@@ -40,10 +40,6 @@ public class SupervisorController {
         this.context = context;
     }
 
-    /**
-     * Get the cache
-     * @return the local storage
-     */
     public SupervisorModel getCache() {
         SupervisorStorage cache = new SupervisorStorage(context);
         return cache.getSupervisor();
