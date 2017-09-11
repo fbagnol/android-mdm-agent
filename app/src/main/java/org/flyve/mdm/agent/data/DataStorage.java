@@ -303,10 +303,6 @@ public class DataStorage {
 		return getData("name");
 	}
 
-	/**
-	 * Set the name
-	 * @param string the name
-	 */
 	public void setName(String name) {
 		setData("name", name);
 	}
