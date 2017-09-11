@@ -183,10 +183,6 @@ public class DataStorage {
 		setData("agent_id", agentId);
 	}
 
-	/**
-	 * Get the broker
-	 * @return string the broker
-	 */
 	public String getBroker() {
 		return getData("broker");
 	}
