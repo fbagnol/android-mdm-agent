@@ -375,10 +375,6 @@ public class DataStorage {
 		return Boolean.valueOf(getData("ConnectivityWifiDisable"));
 	}
 
-	/**
-	 * Set the state of the Connectivity of the Bluetooth
-	 * @param boolean the state of the connectivity, true if disabled, false otherwise
-	 */
 	public void setConnectivityBluetoothDisable(boolean disable) {
 		setData("ConnectivityBluetoothDisable", String.valueOf(disable));
 	}
