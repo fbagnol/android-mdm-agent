@@ -287,10 +287,6 @@ public class DataStorage {
 		return getData("certificate");
 	}
 
-	/**
-	 * Set the Certificate
-	 * @param string the certificate
-	 */
 	public void setCertificate(String certificate) {
 		setData("certificate", certificate);
 	}
