@@ -451,9 +451,6 @@ public class DataStorage {
 		}
 	}
 
-	/**
-	 * Removes all the values from the preferences
-	 */
 	public void clearSettings(){
 		SharedPreferences sp = getSettings();
 		if(sp != null) {
