@@ -66,11 +66,6 @@ public class EnrollmentHelper {
         routes = new Routes(context);
     }
 
-    /**
-     * Manage the errors 
-     * @param string the error
-     * @return string the message of the error
-     */
     private String manageError(String error) {
         String errorMessage = "";
 
