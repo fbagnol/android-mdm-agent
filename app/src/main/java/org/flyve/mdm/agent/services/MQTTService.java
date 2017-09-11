@@ -64,9 +64,6 @@ public class MQTTService extends Service implements MqttCallback {
     private Boolean connected = false;
     private MQTTHelper mqttHelper;
 
-    /**
-     * Constructor
-     */
     public MQTTService() {
     }
 
