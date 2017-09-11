@@ -32,10 +32,6 @@ public class SupervisorController {
 
     private Context context;
 
-    /**
-     * Constructor
-     * @param Context context
-     */
     public SupervisorController(Context context) {
         this.context = context;
     }
