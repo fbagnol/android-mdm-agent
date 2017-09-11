@@ -236,10 +236,6 @@ public class UserModel {
             return type;
         }
 
-        /**
-         * Set the type of the email
-         * @param string the type
-         */
         public void setType(String type) {
             this.type = type;
         }
