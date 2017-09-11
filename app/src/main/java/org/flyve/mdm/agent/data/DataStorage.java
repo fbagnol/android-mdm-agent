@@ -231,10 +231,6 @@ public class DataStorage {
 		setData("tls", tls);
 	}
 
-	/**
-	 * Get the topic
-	 * @return string the topic
-	 */
 	public String getTopic() {
 		return getData("topic");
 	}
