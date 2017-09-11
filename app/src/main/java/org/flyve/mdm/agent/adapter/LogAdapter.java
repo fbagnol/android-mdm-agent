@@ -52,10 +52,6 @@ public class LogAdapter extends BaseAdapter {
 		inflater = (LayoutInflater)activity.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 	}
 
-	/**
-	 * Get how many items are in the data
-	 * @return int the data size
-	 */
 	@Override
 	public int getCount() {
 		return _data.size();
