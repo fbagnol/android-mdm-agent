@@ -223,10 +223,6 @@ public class DataStorage {
 		return getData("tls");
 	}
 
-	/**
-	 * Set the Transport Layer Security (TLS)
-	 * @param string the TLS
-	 */
 	public void setTls(String tls) {
 		setData("tls", tls);
 	}
