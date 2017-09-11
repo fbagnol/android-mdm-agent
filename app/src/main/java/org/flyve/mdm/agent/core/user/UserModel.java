@@ -171,10 +171,6 @@ public class UserModel {
         this.administrativeNumber = administrativeNumber;
     }
 
-    /**
-     * Get the picture of the user
-     * @return the picture
-     */
     public String getPicture() {
         return picture;
     }
