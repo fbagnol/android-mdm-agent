@@ -351,10 +351,6 @@ public class DataStorage {
 		return getData("plugin_flyvemdm_fleets_id");
 	}
 
-	/**
-	 * Set the ID of the Fleets of the Flyve MDM plugin
-	 * @param string the Fleets ID
-	 */
 	public void setPluginFlyvemdmFleetsId(String pluginFlyvemdmFleetsId) {
 		setData("plugin_flyvemdm_fleets_id", pluginFlyvemdmFleetsId);
 	}
