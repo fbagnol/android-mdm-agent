@@ -131,10 +131,6 @@ public class UserModel {
         return mobilePhone;
     }
 
-    /**
-     * Set the mobile phone of the user
-     * @param string the mobile phone
-     */
     public void setMobilePhone(String mobilePhone) {
         this.mobilePhone = mobilePhone;
     }
