@@ -46,9 +46,6 @@ public class MDMAgent extends Application {
     private static MDMAgent instance;
     private static Boolean isDebuggable;
 
-    /**
-     * Called when the application is starting before any activity, service or receiver objects have been created
-     */
     @Override
     public void onCreate() {
         super.onCreate();
