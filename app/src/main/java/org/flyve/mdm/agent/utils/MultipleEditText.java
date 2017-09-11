@@ -94,10 +94,6 @@ public class MultipleEditText {
         return editList;
     }
 
-    /**
-     * Get the spinner list
-     * @return List the spinner list
-     */
     public List<Spinner> getSpinnList() {
         return spinnList;
     }
