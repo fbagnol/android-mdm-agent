@@ -207,10 +207,6 @@ public class DataStorage {
 		return getData("port");
 	}
 
-	/**
-	 * Set the port
-	 * @param string the port
-	 */
 	public void setPort(String port) {
 		setData("port", port);
 	}
