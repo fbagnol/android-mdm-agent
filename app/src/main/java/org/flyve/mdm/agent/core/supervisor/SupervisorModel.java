@@ -61,10 +61,6 @@ public class SupervisorModel {
         this.name = name;
     }
 
-    /**
-     * Get the email of the Supervisor Model
-     * @return string the email
-     */
     public String getEmail() {
         return email;
     }
