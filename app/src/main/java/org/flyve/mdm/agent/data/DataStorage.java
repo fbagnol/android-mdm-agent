@@ -423,11 +423,6 @@ public class DataStorage {
 		return Boolean.valueOf(getData("easterEgg"));
 	}
 
-	/**
-	 * Get the data matching the given argument
-	 * @param string the key
-	 * @return string the data
-	 */
 	private String getData(String key){
 		String data = "";
 		SharedPreferences sp = getSettings();
