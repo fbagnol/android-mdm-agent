@@ -651,10 +651,6 @@ public class MQTTHelper {
         }
     }
 
-    /**
-     * Broadcast the received log
-     * @param string the message
-     */
     private void broadcastReceivedLog(String message){
         // write log file
         FlyveLog.f(message, FlyveLog.FILE_NAME_LOG);
