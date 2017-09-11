@@ -55,10 +55,6 @@ public class DataStorage {
 		}
 	}
 
-	/**
-	 * Get the online status
-	 * @return boolean the value represented by the string
-	 */
 	public boolean getOnlineStatus() {
 		return Boolean.valueOf(getData("onlineStatus"));
 	}
