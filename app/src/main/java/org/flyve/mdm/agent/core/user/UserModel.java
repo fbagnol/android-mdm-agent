@@ -123,10 +123,6 @@ public class UserModel {
         this.phone = phone;
     }
 
-    /**
-     * Get the mobile phone of the user
-     * @return the mobile phone
-     */
     public String getMobilePhone() {
         return mobilePhone;
     }
