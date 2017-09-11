@@ -173,9 +173,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    /**
-     * Load the list drawer
-     */
     public void loadListDrawer() {
 
         arrDrawer = new ArrayList<>();
