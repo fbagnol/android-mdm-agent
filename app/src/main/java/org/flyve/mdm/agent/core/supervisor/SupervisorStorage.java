@@ -65,9 +65,6 @@ public class SupervisorStorage extends LocalStorage {
         setData(LOCAL_STORAGE, json);
     }
 
-    /**
-     * Delete the key cache entry when user is deleted
-     */
     public void deleteUser() {
         deleteKeyCache(LOCAL_STORAGE);
     }
