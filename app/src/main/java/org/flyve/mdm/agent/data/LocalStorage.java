@@ -82,10 +82,6 @@ public class LocalStorage {
 		}
 	}
 
-	/**
-	 * Remove the key cache
-	 * @param string the key value to remove
-	 */
 	public void deleteKeyCache(String llave){
 		SharedPreferences sp = getSettings();
 		if(sp != null) {
