@@ -127,10 +127,6 @@ public class DataStorage {
 		return getData("invitation_token");
 	}
 
-	/**
-	 * Set the invitation token
-	 * @param string the invitation token
-	 */
 	public void setInvitationToken(String invitationToken) {
 		setData("invitation_token", invitationToken);
 	}
