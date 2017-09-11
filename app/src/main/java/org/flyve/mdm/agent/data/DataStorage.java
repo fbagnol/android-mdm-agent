@@ -95,10 +95,6 @@ public class DataStorage {
 		return getData("url");
 	}
 
-	/**
-	 * Set the URL
-	 * @param string the url
-	 */
 	public void setUrl(String url) {
 		setData("url", url);
 	}
