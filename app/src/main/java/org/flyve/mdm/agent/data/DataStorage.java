@@ -215,10 +215,6 @@ public class DataStorage {
 		setData("port", port);
 	}
 
-	/**
-	 * Get the Transport Layer Security (TLS)
-	 * @return string the TLS
-	 */
 	public String getTls() {
 		return getData("tls");
 	}
