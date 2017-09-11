@@ -117,10 +117,6 @@ public class SupervisorModel {
         return picture;
     }
 
-    /**
-     * Set the picture of the Supervisor Model
-     * @param string the picture
-     */
     public void setPicture(String picture) {
         this.picture = picture;
     }
