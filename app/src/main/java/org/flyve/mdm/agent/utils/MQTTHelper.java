@@ -334,11 +334,6 @@ public class MQTTHelper {
 
     }
 
-    /**
-     * Check if the file is to be removed or downloaded
-     * @param JSONArray if the object has remove or deploy file
-     * @param string the session token
-     */
     public void filesWork(JSONArray jsonFiles, String sessionToken) throws Exception {
 
         FilesHelper filesHelper = new FilesHelper(this.context);
