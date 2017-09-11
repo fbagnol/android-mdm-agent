@@ -70,10 +70,6 @@ public class MultipleEditText {
         this.limit = size;
     }
 
-    /**
-     * Set the input type
-     * @param int the type
-     */
     public void setInputType(int type) {
         inputType = type;
     }
