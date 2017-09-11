@@ -48,9 +48,6 @@ public class LogFileReader {
         uiHandler.post(runnable);
     }
 
-    /**
-     * Constructor
-     */
     private LogFileReader() {
     }
 
