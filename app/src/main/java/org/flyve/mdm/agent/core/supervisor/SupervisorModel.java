@@ -101,10 +101,6 @@ public class SupervisorModel {
         return website;
     }
 
-    /**
-     * Set the website of the Supervisor Model
-     * @param string the website
-     */
     public void setWebsite(String website) {
         this.website = website;
     }
