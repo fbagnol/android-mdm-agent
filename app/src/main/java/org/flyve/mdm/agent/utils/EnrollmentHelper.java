@@ -184,11 +184,6 @@ public class EnrollmentHelper {
         t.start();
     }
 
-    /**
-     * Get the information to enroll
-     * @param JSONObject the information of the phone
-     * @param enrollCallback the callback
-     */
     public void enrollment(final JSONObject payload, final enrollCallBack callback) {
         Thread t = new Thread(new Runnable()
         {
