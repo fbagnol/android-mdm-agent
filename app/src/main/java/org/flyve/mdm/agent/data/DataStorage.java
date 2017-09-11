@@ -263,10 +263,6 @@ public class DataStorage {
 		setData("mqttuser", mqttuser);
 	}
 
-	/**
-	 * Get the password of the Message Queue Telemetry Transport (MQTT)
-	 * @return the MQTT password
-	 */
 	public String getMqttpasswd() {
 		return getData("mqttpasswd");
 	}
