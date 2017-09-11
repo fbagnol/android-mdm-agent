@@ -55,10 +55,6 @@ public class SupervisorStorage extends LocalStorage {
         return gson.fromJson(json, SupervisorModel.class);
     }
 
-    /**
-     * Set the supervisor local storage
-     * @param SupervisorModel supervisor
-     */
     public void setSupervisor(SupervisorModel supervisor) {
         Gson gson = new Gson();
         String json = gson.toJson(supervisor);
