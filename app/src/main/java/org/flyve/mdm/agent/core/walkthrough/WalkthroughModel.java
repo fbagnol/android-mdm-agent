@@ -76,10 +76,6 @@ public class WalkthroughModel {
         this.link = link;
     }
 
-    /**
-     * Get the image of the Walkthrough
-     * @return int the image
-     */
     public int getImage() {
         return image;
     }
