@@ -73,9 +73,6 @@ public class PreviewUserActivity extends AppCompatActivity {
         });
     }
 
-    /**
-     * Called when the activity will start interacting with the user
-     */
     @Override
     public void onResume() {
         super.onResume();
