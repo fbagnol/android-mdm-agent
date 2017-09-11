@@ -399,10 +399,6 @@ public class DataStorage {
 		setData("ConnectivityGPSDisable", String.valueOf(disable));
 	}
 
-	/**
-	 * Get the state of the Connectivity of the GPS
-	 * @return boolean the state of the connectivity, true if disabled, false otherwise
-	 */
 	public boolean getConnectivityGPSDisable() {
 		return Boolean.valueOf(getData("ConnectivityGPSDisable"));
 	}
