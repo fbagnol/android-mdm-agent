@@ -71,10 +71,6 @@ public class DataStorage {
 		setData("onlineStatus", String.valueOf(status));
 	}
 
-	/**
-	 * Get the version of the Manifest
-	 * @return string the Manifest version
-	 */
 	public String getManifestVersion() {
 		return getData("manifestVersion");
 	}
