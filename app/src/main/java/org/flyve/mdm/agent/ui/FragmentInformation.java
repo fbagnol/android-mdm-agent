@@ -42,9 +42,6 @@ public class FragmentInformation extends Fragment {
 
     private int countEasterEgg;
 
-    /**
-     * Called when the Fragment is no longer resumed
-     */
     @Override
     public void onPause() {
         // unregister the broadcast
