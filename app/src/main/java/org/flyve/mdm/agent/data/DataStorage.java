@@ -327,10 +327,6 @@ public class DataStorage {
 		setData("computers_id", computersId);
 	}
 
-	/**
-	 * Get the ID of the entities
-	 * @return string the entities ID
-	 */
 	public String getEntitiesId() {
 		return getData("entities_id");
 	}
