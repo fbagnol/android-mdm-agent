@@ -56,10 +56,6 @@ public class EnrollmentHelper {
     private DataStorage cache;
     private Routes routes;
 
-    /**
-     * This constructor loads the context of the current class
-     * @param Context the context of the class
-     */
     public EnrollmentHelper(Context context) {
         this.context = context;
         cache = new DataStorage(context);
